@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 2px 3px black;
+}
+
+#taskList{
+    font-size: 26px;
+}
+
+input{
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 12px;
+    width: 200px;
+    font-size: 26px;
+    border-color: black;
+    box-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+}
+
+button{
+    background-color:black;
+    color: rgb(134, 134, 134);
+    border-radius: 10px;
+    border: none;
+    font-size:30px;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+button:hover{
+    color: rgb(235, 232, 232);
+}
+
+button:active{
+    color: red;
+}
