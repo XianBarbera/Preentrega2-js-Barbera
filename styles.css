@@ -1,43 +1,47 @@
-body{
-    text-align: center;
-    background-color: rgb(43, 43, 43);
-    color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 1px 2px 3px black;
+body {
+  text-align: center;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-family: "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  text-shadow: 1px 2px 3px black;
+  margin: 0;
+  padding: 0;
 }
 
-#taskList{
-    font-size: 26px;
+#taskList {
+  font-size: 26px;
+  list-style: none;
 }
 
-input{
-    outline: none;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-weight: bolder;
-    border-radius: 5px;
-    margin: 20px;
-    padding: 12px;
-    width: 200px;
-    font-size: 26px;
-    border-color: black;
-    box-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+input {
+  outline: none;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 12px;
+  width: 200px;
+  font-size: 26px;
+  border: 1px solid black;
+  box-shadow: 1px 2px 4px rgba(95, 93, 93, 0.3);
 }
 
-button{
-    background-color:black;
-    color: rgb(134, 134, 134);
-    border-radius: 10px;
-    border: none;
-    font-size:30px;
-    padding: 5px;
-    font-weight: bolder;
+button {
+  background-color: black;
+  color: #868686;
+  border-radius: 10px;
+  border: none;
+  font-size: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-button:hover{
-    color: rgb(235, 232, 232);
+button:hover {
+  color: #ebe8e8;
 }
 
-button:active{
-    color: red;
+button:active {
+  color: red;
 }
